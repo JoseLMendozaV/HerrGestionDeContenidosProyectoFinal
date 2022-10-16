@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Django | ProyectoFinal </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Jose Mendoza" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Skip navigation</a></p>
+<header id="header" ><div id="headerContent">ProyectoFinal</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Arquitectura y desarrollo de aplicaciones web</a></li>
+   <li><a href="objetivos_del_curso.html" class="no-ch">Objetivos del curso</a></li>
+   <li class="current-page-parent"><a href="contenido.html" class="current-page-parent daddy">Contenido</a>
+   <ul>
+      <li><a href="arquitectura_de_las_aplicaciones_web.html" class="no-ch">Arquitectura de las aplicaciones web</a></li>
+      <li><a href="estructura_de_una_pgina_web.html" class="no-ch">Estructura de una página web</a></li>
+      <li><a href="lenguajes_front_end__cliente.html" class="no-ch">Lenguajes Front End – Cliente</a></li>
+      <li><a href="tecnologa_front_end.html" class="no-ch">Tecnología Front End</a></li>
+      <li><a href="backend__servidor.html" class="no-ch">Backend – Servidor</a></li>
+      <li><a href="html5.html" class="no-ch">HTML5</a></li>
+      <li><a href="css3.html" class="no-ch">CSS3</a></li>
+      <li><a href="maquetacin.html" class="no-ch">Maquetación</a></li>
+      <li id="active"><a href="django.html" class="active no-ch">Django</a></li>
+      <li><a href="administracin_del_servidor.html" class="no-ch">Administración del servidor</a></li>
+   </ul>
+   </li>
+   <li><a href="asignacin.html" class="no-ch">Asignación</a></li>
+   <li><a href="glosario.html" class="no-ch">Glosario</a></li>
+   <li><a href="recursos_de_apoyo.html" class="no-ch">Recursos de apoyo</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="maquetacin.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="administracin_del_servidor.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Django</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id39">
+<div class="iDevice emphasis0" >
+<div id="ta39_158_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">Django es un marco de desarrollo web de código abierto basado en Python que sigue el paradigma arquitectónico modelo-vista-controlador (MVC). Primero se diseñó para operar sitios web orientados a noticias para World Company of Lawrence, Kansas, y se distribuyó al público bajo una licencia BSD en julio de 2005; lleva el nombre del músico de jazz gitano Django Reinhardt.</p>
+<p style="text-align: justify;"><br />El objetivo principal de Django es facilitar la creación de sitios web complicados. Django enfatiza la reutilización, la conexión y extensión de componentes, el desarrollo rápido y la filosofía "Don't Repeat Yourself" (DRY). Python se usa en todos los componentes del marco, incluidas las configuraciones, los archivos y sus modelos de datos.</p>
+<p style="text-align: center;"><img src="Django.jpg" width="500" height="281" /></p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id40">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Componentes</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta40_159_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;">A pesar de tener su propia terminología, como llamar "vistas" a los objetos que generan respuestas HTTP, el marco fundamental de Django puede verse como un diseño MVC. Consiste en un mapeador relacional de objetos (ORM) que actúa como mediador entre los modelos de datos de Python y una base de datos relacional ("Modelo"), un sistema para procesar solicitudes HTTP con un sistema de plantillas web ("Ver") y una expresión regular. despachador de URL basado ("Ver") ("Controlador").</p>
+<p style="text-align: justify;"><br />También se incluyen en la estructura fundamental:</p>
+<ul>
+<li style="text-align: justify;">Un servidor web ligero e independiente para desarrollo y pruebas</li>
+<li style="text-align: justify;">Un sistema de serialización y validación de formularios capaz de traducir entre formularios HTML y valores almacenables en bases de datos.</li>
+<li style="text-align: justify;">un sistema de plantilla que utiliza la idea de herencia de la programación orientada a objetos</li>
+<li style="text-align: justify;">Un marco de almacenamiento en caché que admite varias técnicas de caché</li>
+<li style="text-align: justify;">Soporte para clases de middleware que pueden intervenir en diferentes etapas de procesamiento de solicitudes y ejecutar métodos personalizados.</li>
+<li style="text-align: justify;">Un sistema de despacho interno que permite que los componentes de la aplicación comuniquen eventos usando señales predefinidas.</li>
+<li style="text-align: justify;">un mecanismo para la internacionalización que incluye traducciones de los propios componentes de Django a muchos idiomas</li>
+<li style="text-align: justify;">Un sistema capaz de producir y leer representaciones XML y/o JSON de objetos modelo de Django.</li>
+<li style="text-align: justify;">Un sistema para mejorar las capacidades del motor de plantillas</li>
+<li style="text-align: justify;">una interfaz para el marco de prueba de unidad nativo de Python</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Licensed under the</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share Alike License 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="maquetacin.html" class="prev"><span><span>&laquo; </span>Previous</span></a> <span class="sep">| </span><a href="administracin_del_servidor.html" class="next"><span>Next<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_intef_js.js"></script></body></html>
